@@ -1,0 +1,22 @@
+
+.logo{
+    width: 100px;
+}
+.navbar{
+    background-color: #f3f2f3;
+}
+ .navbar .navbarItems a{
+    text-decoration: none;   
+    color: rgb(172, 164, 164);
+    font-weight: 500;
+    font-size: 22px;
+    margin: 5px; 
+    padding: 0 23px;
+    transition: 0.7s;
+    
+} 
+.navbar .navbarItems a:hover,
+.navbar .navbarItems a:active,
+.navbar .navbarItems a.active{
+    color: rgb(211, 127, 127);
+}

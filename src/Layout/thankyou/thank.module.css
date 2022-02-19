@@ -1,0 +1,38 @@
+
+.thanks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.thanksExpression{
+    font-size: 100px;
+    color: rgb(101, 47, 151);
+    animation: shape  8s infinite ;
+}
+/* @keyframes shape{
+    0%{   color: rgb(132, 75, 185);   }
+    100%{  color: rgb(211, 127, 127); }
+} */
+.content h5{
+    color: rgb(132, 75, 185);
+    font-size: 30px;
+}
+.content button{
+    border: none;
+    padding: 10px 5px;
+    border-radius: 40px;
+    margin: 0px 8px;
+    background-color: rgb(211, 127, 127);
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
