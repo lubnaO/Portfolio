@@ -12,6 +12,7 @@ let NavBar = () => {
     <Container>
         <Navbar.Brand href="#home">         
          {/* <Image src={logo} className={classes.logo}/>  */}
+         <h5 className={classes.logo}>Lubna Alamoudi</h5>
          
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />     

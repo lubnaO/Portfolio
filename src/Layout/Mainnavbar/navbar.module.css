@@ -20,3 +20,9 @@
 .navbar .navbarItems a.active{
     color: rgb(211, 127, 127);
 }
+.logo{
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(211, 127, 127);
+}

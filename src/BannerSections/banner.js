@@ -18,7 +18,7 @@ let Banner = () => {
     return(
         <section>
               <Container>
-                <Row className=" d-flex justify-content-revet mt-5">
+                <Row className=" d-flex justify-content-revet mt-3">
                 <Col sm={12} lg={6} className="mt-5">
                   <p className={`mt-5 ${classes.welcome}`}>Welcome to my portfolio website!</p>
                   <h3 className={`mt-5 ${classes.hello}`}>Hello folks, <span className={classes.frontEndStyle}>I'm front end developer</span></h3>
