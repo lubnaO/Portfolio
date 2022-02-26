@@ -11,7 +11,7 @@ let Projects = () => {
   let [error, setError] =  useState('');
 
   useEffect(()=>{
-   axios.get("http://localhost:4000/data")
+   axios.get("https://lubna-alamoudi.herokuapp.com/data")   
    .then((response)=>{
     console.log(response.data)
     setLoading(false)
