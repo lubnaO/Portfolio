@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './banner.module.css';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import bannerImage from '../images/software-engineer-2043023 (9).png';
-import CvPdf from '../cv/Developer.pdf';
+import CvPdf from '../cv/Lubna Amoudi-Front end developer.pdf';
 import {useNavigate} from 'react-router-dom';
 import Footer from '../Layout/Footer/footer';
 

@@ -24,7 +24,7 @@ let ShowProjects = ({allProjects}) =>{
     
     let close = () =>{
       SetModalIsOpen({
-        toggle:false,  //كاني حوطت الكونتت في الصفحة التانية من دي النقطة
+        toggle:false,  
         theProjects: [],
         isOpen:false
       })

@@ -25,7 +25,7 @@ let ProjectDetails = ({Details, toggle, closed}) => {
           <h6 className={classes.liveLink}>Source Code:  <a className={classes.link} onClick={()=>toSourceCode(e)}>{e.sourceCode}</a></h6>
           <div className={classes.closeButton} onClick={closed}>X</div>      
      </div>
-     </div>
+     </div> 
 
 
         }

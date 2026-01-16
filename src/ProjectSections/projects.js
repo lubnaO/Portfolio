@@ -11,7 +11,7 @@ let Projects = () => {
   let [error, setError] =  useState('');
 
   useEffect(()=>{
-   axios.get("https://lubna-alamoudi.herokuapp.com/data")   
+   axios.get("/Data/projects.json")   
    .then((response)=>{
     console.log(response.data)
     setLoading(false)
@@ -30,6 +30,7 @@ let Projects = () => {
   //   console.log(m);
   //   setProducts(m)
   // })
+  
   },[])
     return(
         <section className={classes.backgroundProjectSection}>

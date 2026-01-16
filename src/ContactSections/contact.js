@@ -44,8 +44,9 @@ let Contact = () => {
       Details:enteredDetails
     }
     console.log(Data)
-
-       fetch('https://portfoliocontact-1e80f-default-rtdb.firebaseio.com/contact.json',
+    
+        //1) SENDING OLD WAY
+       fetch('https://contactwithlubna-default-rtdb.europe-west1.firebasedatabase.app/contact.json',
      {
            method: 'POST',
            body: JSON.stringify(Data),
@@ -58,10 +59,49 @@ let Contact = () => {
      })
 
   }
-
-
-
-
+   /**---------------------------------------------------------------- */
+      //2) SENDING NEW WAY
+      // async function fetching(){
+      //   await fetch('https://react-meetsup-2c25d-default-rtdb.firebaseio.com/meetups.json', {
+      //      method: 'POST',
+      //      body: JSON.stringify(meetupData),
+      //      headers: {
+      //        'Content-Type': 'application/json'
+      //      }
+      //    }).then(()=>{
+      //      navigate('/')
+      //    }).catch(()=>{
+      //        console.log('error');
+      //    })
+      //  }
+      //  fetching();
+      //  }
+      /**---------------------------------------------------------------- */
+      //3) Receving old way
+      // fetch("http://localhost:4000/data")   
+      // .then((e)=>{
+      //    return e.json();
+          
+      // }).then((m)=>{
+      //   console.log(m);
+      //   setProducts(m)
+      // })
+      /**---------------------------------------------------------------- */
+      //4) Receving New Way
+      //   async function getData(){
+      //     let mon = await fetch("data.json");
+      //     let show = await mon.json();
+      //   console.log(show)
+      //    let content = show.map(function(e){
+      //        return `
+      //        <div>${e.name}</div>
+      //        <img src=${e.images}>
+      
+      //        `
+      //    }).join("");
+      // output.innerHTML = content;
+      // }
+    
     return(
         <section className={classes.backgroundContactSection}>
         <Container>
@@ -118,9 +158,7 @@ let Contact = () => {
 
              </div>
             </Col>
-
-
-         </Row>
+        </Row>
         </Container>
         </section>
     )
