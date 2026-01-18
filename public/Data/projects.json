@@ -34,19 +34,19 @@
                     }, 
                     {
                         "id": 5,
-                        "projectName":"Portfolio page",
-                        "images": "https://i.postimg.cc/fWr2fZyn/portfolio.jpg",
-                        "description": "Portfolio page show resume about me and resume and all information.",
-                        "livePreview":"https://github.com/lubnaO/LubnaPortfoilio",
-                        "sourceCode":"https://github.com/lubnaO/LubnaPortfoilio"
+                        "projectName":"Ecommerce website",
+                        "images": "https://i.postimg.cc/6p4LsF0B/ecommerce-(1).png",
+                        "description": "Website ecommerce online for making shopping.",
+                        "livePreview":"https://lubnao.github.io/EcommerceShopping/",
+                        "sourceCode":"https://github.com/lubnaO/EcommerceShopping"
                     },
                     {
                         "id": 6,
-                        "projectName":"Josi Business",
-                        "images": "https://i.postimg.cc/RC2rVwcH/JosiCorp.jpg",
-                        "description": "Simple business website contain all information about company.",
-                        "livePreview":"https://lubnao.github.io/JosiBusiness/",
-                        "sourceCode":"https://github.com/lubnaO/JosiBusiness"
+                        "projectName":"Product Cart",
+                        "images": "https://i.postimg.cc/PqG70W1F/Product-Cart-slt-swq-(1).jpg",
+                        "description": "Page to adding products into cart shopping.",
+                        "livePreview":"https://product-cart-mauve.vercel.app/",
+                        "sourceCode":"https://github.com/lubnaO/ProductCart"
                     }
                 
            ]
